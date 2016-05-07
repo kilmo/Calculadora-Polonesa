@@ -1,65 +1,17 @@
 package model;
-
-
-/**
- * <!-- begin-user-doc -->
- * <!--  end-user-doc  -->
- * @generated
- */
+import src.main.java.model.Pilha;
 
 public class Principal
 {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
 	
 	private Pilha pilhaDeNumeros;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	private float numero1;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	private float numero2;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	private String operacao;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	private float resultado;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
-	public Principal(){
+  
+  public Principal(){
 		super();
 	}
 
@@ -83,7 +35,7 @@ public class Principal
 	
 	public float calculaSoma(float parameter, float parameter2) {
 		// TODO implement me
-		return 0.0;
+		return 0;
 	}
 
 	/**
@@ -95,7 +47,7 @@ public class Principal
 	
 	public float calculaSubtracao(float parameter, float parameter2) {
 		// TODO implement me
-		return 0.0;
+		return 0;
 	}
 
 	/**
@@ -107,7 +59,7 @@ public class Principal
 	
 	public float calculaMultiplicacao(float parameter, float parameter2) {
 		// TODO implement me
-		return 0.0;
+		return 0;
 	}
 
 	/**
@@ -119,7 +71,7 @@ public class Principal
 	
 	public float calculaDivisao(float parameter, float parameter2) {
 		// TODO implement me
-		return 0.0;
+		return 0;
 	}
 
 	/**
